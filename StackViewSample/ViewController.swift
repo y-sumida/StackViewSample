@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var viewA: UIView!
+    @IBOutlet weak var viewB: UIView!
+    @IBOutlet weak var viewC: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // 真ん中のビューを非表示にする
+        viewB.hidden = true
     }
 
     override func didReceiveMemoryWarning() {
