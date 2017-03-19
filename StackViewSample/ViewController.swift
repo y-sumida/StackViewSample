@@ -12,12 +12,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var viewA: UIView!
     @IBOutlet weak var viewB: UIView!
     @IBOutlet weak var viewC: UIView!
+    @IBOutlet weak var viewCHeight: NSLayoutConstraint!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // 真ん中のビューを非表示にする
         viewB.hidden = true
+        viewCHeight.constant = 200
     }
 
     override func didReceiveMemoryWarning() {
