@@ -14,16 +14,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var bLabel: UILabel!
     @IBOutlet weak var viewC: UIView!
 
-    @IBOutlet weak var alabel: UILabel!
+    //@IBOutlet weak var alabel: UILabel!
     @IBOutlet weak var cLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        alabel.preferredMaxLayoutWidth = self.view.frame.width
+        //alabel.preferredMaxLayoutWidth = self.view.frame.width
         bLabel.preferredMaxLayoutWidth = self.view.frame.width
         cLabel.preferredMaxLayoutWidth = self.view.frame.width
 
-        alabel.text = "aLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabel"
+        //alabel.text = "aLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabel"
 
         bLabel.text = "bLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabel"
 
