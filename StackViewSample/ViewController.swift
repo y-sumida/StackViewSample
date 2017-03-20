@@ -11,15 +11,27 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var viewA: UIView!
     @IBOutlet weak var viewB: UIView!
+    @IBOutlet weak var bLabel: UILabel!
     @IBOutlet weak var viewC: UIView!
-    @IBOutlet weak var viewCHeight: NSLayoutConstraint!
+
+    @IBOutlet weak var alabel: UILabel!
+    @IBOutlet weak var cLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        alabel.preferredMaxLayoutWidth = self.view.frame.width
+        bLabel.preferredMaxLayoutWidth = self.view.frame.width
+        cLabel.preferredMaxLayoutWidth = self.view.frame.width
 
-        // 真ん中のビューを非表示にする
-        viewB.hidden = true
-        viewCHeight.constant = 200
+        alabel.text = "aLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabelaLabel"
+
+        bLabel.text = "bLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabel"
+
+        cLabel.text = "cLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabel"
+    }
+
+    override func viewDidLayoutSubviews() {
+
     }
 
     override func didReceiveMemoryWarning() {
