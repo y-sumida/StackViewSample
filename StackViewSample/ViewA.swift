@@ -20,7 +20,7 @@ class ViewA: UIView {
         super.init(coder: aDecoder)
         loadView()
     }
-    
+
     func loadView() {
         let className = NSStringFromClass(self.dynamicType)
         let bundle = NSBundle(forClass: self.dynamicType)

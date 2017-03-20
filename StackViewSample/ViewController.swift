@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var viewA: UIView!
+    @IBOutlet weak var viewA: ViewA!
     @IBOutlet weak var viewB: UIView!
     @IBOutlet weak var bLabel: UILabel!
     @IBOutlet weak var viewC: UIView!
@@ -28,10 +28,10 @@ class ViewController: UIViewController {
         bLabel.text = "bLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabelbLabel"
 
         cLabel.text = "cLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabelcLabel"
-    }
+        viewB.hidden = true
 
-    override func viewDidLayoutSubviews() {
-
+        viewA.label.text = "ViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabelViewALabel"
+        viewA.label.preferredMaxLayoutWidth = self.view.frame.width
     }
 
     override func didReceiveMemoryWarning() {
