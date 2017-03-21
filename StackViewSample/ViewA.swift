@@ -41,4 +41,8 @@ class ViewA: UIView {
             metrics:nil,
             views: bindings))
     }
+
+    override func layoutSubviews() {
+        label.preferredMaxLayoutWidth = self.label.frame.width
+    }
 }
