@@ -44,7 +44,7 @@
                                     <constraint firstAttribute="trailing" secondItem="1pJ-2f-WBc" secondAttribute="trailing" id="U8Q-VE-6mz"/>
                                     <constraint firstItem="1pJ-2f-WBc" firstAttribute="width" secondItem="38H-2G-DyH" secondAttribute="width" id="W5C-iw-snF"/>
                                     <constraint firstAttribute="trailing" secondItem="1pJ-2f-WBc" secondAttribute="trailing" id="hsb-D7-6uV"/>
-                                    <constraint firstAttribute="bottom" secondItem="1pJ-2f-WBc" secondAttribute="bottom" priority="750" id="u1B-o1-QFj"/>
+                                    <constraint firstAttribute="bottom" secondItem="1pJ-2f-WBc" secondAttribute="bottom" id="u1B-o1-QFj"/>
                                 </constraints>
                             </scrollView>
                         </subviews>

@@ -12,11 +12,11 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" restorationIdentifier="ViewA" id="s5e-Ak-YqE">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+            <rect key="frame" x="0.0" y="0.0" width="600" height="48"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ru-QG-zMS">
-                    <rect key="frame" x="16" y="16" width="568" height="32"/>
+                    <rect key="frame" x="16" y="16" width="568" height="16"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
@@ -30,7 +30,7 @@
                 <constraint firstAttribute="trailing" secondItem="3ru-QG-zMS" secondAttribute="trailing" constant="16" identifier="hoge2" id="UGe-MQ-aNY"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="317" y="187"/>
+            <point key="canvasLocation" x="317" y="178.5"/>
         </view>
     </objects>
 </document>
