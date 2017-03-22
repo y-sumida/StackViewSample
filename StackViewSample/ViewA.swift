@@ -11,6 +11,8 @@ import UIKit
 class ViewA: UIView {
     @IBOutlet weak var label: UILabel!
     
+    private var preText: String = ""
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         loadView()
@@ -43,8 +45,12 @@ class ViewA: UIView {
     }
 
     @IBAction func tapButton(_ sender: Any) {
-            //self.isHidden = true
-        self.label.text = "hoge"
+        if self.label.numberOfLines == 0 {
+            self.label.numberOfLines = 5
+        }
+        else {
+            self.label.numberOfLines = 0
+        }
     }
 
     override func layoutSubviews() {

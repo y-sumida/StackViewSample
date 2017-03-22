@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "646276538888BDB5682F042E6F6079C8F9862743",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1CDAB052E3B5B1AA6CC11D7AE07A1177CC7C266D" : 9223372036854775807,
+    "646276538888BDB5682F042E6F6079C8F9862743" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BD433C0F-C61E-406E-9246-8958B9F15956",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1CDAB052E3B5B1AA6CC11D7AE07A1177CC7C266D" : "",
+    "646276538888BDB5682F042E6F6079C8F9862743" : "StackViewSample\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "StackViewSample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "StackViewSample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:cnt_develop\/pvt_dpia-dev-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1CDAB052E3B5B1AA6CC11D7AE07A1177CC7C266D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:y-sumida\/StackViewSample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "646276538888BDB5682F042E6F6079C8F9862743"
+    }
+  ]
+}
