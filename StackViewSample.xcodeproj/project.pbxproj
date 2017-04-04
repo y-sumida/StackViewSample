@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94C4627A1E93DC5700D53044 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C462791E93DC5700D53044 /* CustomView.xib */; };
+		94C4627C1E93DD8900D53044 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C4627B1E93DD8900D53044 /* CustomView.swift */; };
+		94C4627F1E93DDF600D53044 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C4627D1E93DDF600D53044 /* CustomCell.swift */; };
+		94C462801E93DDF600D53044 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C4627E1E93DDF600D53044 /* CustomCell.xib */; };
+		94C462821E93DEC400D53044 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C462811E93DEC400D53044 /* SecondTableViewController.swift */; };
 		A9C8FE801E7EC4850063D585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C8FE7F1E7EC4850063D585 /* AppDelegate.swift */; };
 		A9C8FE821E7EC4850063D585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C8FE811E7EC4850063D585 /* ViewController.swift */; };
 		A9C8FE851E7EC4850063D585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C8FE831E7EC4850063D585 /* Main.storyboard */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94C462791E93DC5700D53044 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		94C4627B1E93DD8900D53044 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		94C4627D1E93DDF600D53044 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		94C4627E1E93DDF600D53044 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		94C462811E93DEC400D53044 /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 		A9C8FE7C1E7EC4850063D585 /* StackViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C8FE7F1E7EC4850063D585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9C8FE811E7EC4850063D585 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +71,11 @@
 				A9C8FE7F1E7EC4850063D585 /* AppDelegate.swift */,
 				A9C8FE811E7EC4850063D585 /* ViewController.swift */,
 				A9C8FE831E7EC4850063D585 /* Main.storyboard */,
+				94C462811E93DEC400D53044 /* SecondTableViewController.swift */,
+				94C462791E93DC5700D53044 /* CustomView.xib */,
+				94C4627D1E93DDF600D53044 /* CustomCell.swift */,
+				94C4627E1E93DDF600D53044 /* CustomCell.xib */,
+				94C4627B1E93DD8900D53044 /* CustomView.swift */,
 				A9C8FE861E7EC4850063D585 /* Assets.xcassets */,
 				A9C8FE881E7EC4850063D585 /* LaunchScreen.storyboard */,
 				A9C8FE8B1E7EC4850063D585 /* Info.plist */,
@@ -128,7 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C462801E93DDF600D53044 /* CustomCell.xib in Resources */,
 				A9C8FE8A1E7EC4850063D585 /* LaunchScreen.storyboard in Resources */,
+				94C4627A1E93DC5700D53044 /* CustomView.xib in Resources */,
 				A9C8FE871E7EC4850063D585 /* Assets.xcassets in Resources */,
 				A9C8FE851E7EC4850063D585 /* Main.storyboard in Resources */,
 				A9C8FE941E7FC3E00063D585 /* ViewA.xib in Resources */,
@@ -143,6 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9C8FE821E7EC4850063D585 /* ViewController.swift in Sources */,
+				94C462821E93DEC400D53044 /* SecondTableViewController.swift in Sources */,
+				94C4627C1E93DD8900D53044 /* CustomView.swift in Sources */,
+				94C4627F1E93DDF600D53044 /* CustomCell.swift in Sources */,
 				A9C8FE961E7FC4A30063D585 /* ViewA.swift in Sources */,
 				A9C8FE801E7EC4850063D585 /* AppDelegate.swift in Sources */,
 			);
